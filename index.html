@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header>Weather App</header>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name" spellcheck="false" value="North Lanarkshire">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="weather">
+            <h1 class="temp"></h1>
+            <h2 class="city">North Lanarkshire</h2>
+            <div class="details">
+                <div class="col">
+                    <i class="fas fa-tint"></i>
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fas fa-wind"></i>
+                    <div>
+                        <p class="wind"></p>
+                        <p>speed</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fas fa-compress-arrows-alt"></i>
+                    <div>
+                        <p class="pressure"></p>
+                        <p>Pressure</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <div id="nextPage">
+        <button id="send_data">Save Data</button>
+        <a href="view.php"><button>Past Data</button></a>
+      </div>
+
+    <script src="weather.js"></script>
+    <footer>NAME:SANJANA SHRESTHA  STUDENT ID:2357518</footer>
+</body>
+</html>
+
+
